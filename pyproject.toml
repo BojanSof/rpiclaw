@@ -1,0 +1,14 @@
+[project]
+name = "rpiclaw"
+version = "0.1.0"
+description = "AI assistant using picoclaw and rpi zero 2w"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "gtts>=2.5.4",
+    "markdown-text-clean>=1.0.3",
+    "pathvalidate>=3.3.1",
+    "playsound3>=3.3.1",
+    "pyaudio>=0.2.14",
+    "speechrecognition>=3.14.5",
+]
